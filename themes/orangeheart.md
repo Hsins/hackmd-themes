@@ -1,12 +1,9 @@
 ---
 title: "HackMD Theme: OrangeHeart"
-description: Theme for HackMD ported from https://theme.typora.io/theme/OrangeHeart/.  Use `{%hackmd @Hsins/theme-orangeheart %}` syntax to include this theme.
+description: Theme for HackMD ported from https://theme.typora.io/theme/OrangeHeart/. Use `{%hackmd @Hsins/theme-orangeheart %}` syntax to include this theme.
 author: Hsins
 tags: HackMD-Theme
-robots: 
-breaks: 
-GA: G-19Z13M9RWQ
-disqus: hsins-hackmd
+breaks: false
 ---
 
 <style>
