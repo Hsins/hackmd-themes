@@ -1,0 +1,40 @@
+{
+  "name": "hackmd-themes",
+  "type": "module",
+  "version": "1.0.0",
+  "private": true,
+  "description": "🎨 Colorful and pretty themes for HackMD. Most of thems are inspired and ported from Typora Themes.",
+  "keywords": [
+    "hackmd",
+    "markdown",
+    "hackmd-theme",
+    "theme"
+  ],
+  "scripts": {
+    "minify": "postcss ./styles/*.css --dir ./dist",
+    "update": "node ./commands/update.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hsins/hackmd-themes.git"
+  },
+  "author": {
+    "name": "H.-H. Peng",
+    "email": "hsinspeng@gmail.com",
+    "url": "https://github.com/Hsins"
+  },
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/Hsins/hackmd-themes",
+  "bugs": {
+    "url": "https://github.com/Hsins/hackmd-themes/issues",
+    "email": "hsinspeng@gmail.com"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.2",
+    "axios": "^0.26.0",
+    "cssnano": "^5.1.0",
+    "log-beautify": "^1.2.0",
+    "postcss": "^8.4.8",
+    "postcss-cli": "^9.1.0"
+  }
+}

@@ -1,0 +1,42 @@
+name: Update Themes
+
+on:
+  push:
+    branches:
+      - 'main'
+
+jobs:
+  update-themes:
+    environment: CI
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Branch
+        uses: actions/checkout@v2
+        with:
+          ref: main
+
+      - name: Setup node
+        uses: actions/setup-node@v2
+        with:
+          node-version: '17'
+
+      - name: Install modules and minified CSS files
+        run: yarn install && yarn minify
+
+      - name: Update themes and upload to HackMD
+        run: yarn update
+        env:
+          HACKMD_API_TOKEN: ${{ secrets.HACKMD_API_TOKEN }}
+
+      - name: Commit Change
+        run: |
+          # Hard-code user configuration
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          # Checkout the branch so we can push back to it
+          git checkout main
+          git add -A
+          # Only commit and push if we have changes
+          git diff --quiet && git diff --staged --quiet || (git commit -m ":rocket: update themes at $(date +'%Y-%m-%d %H:%M')")
+          git push
