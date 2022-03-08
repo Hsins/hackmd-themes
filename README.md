@@ -6,13 +6,10 @@
 </div>
 
 <!-- logo, title and description -->
-<!-- Logo -->
-<p align="center">
+<div align="center">
+
   <img src="https://user-images.githubusercontent.com/26391143/156984836-38acacee-f510-474c-9b8a-6da4b855f653.png#gh-dark-mode-only" alt="HackMD Themes" height="150px">
   <img src="https://user-images.githubusercontent.com/26391143/156984539-606601e9-ad2c-48d6-a783-f6a95bf0bd44.png#gh-light-mode-only" alt="HackMD Themes" height="150px">
-</p>
-
-<div align="center">
 
 # HackMD Themes
 
@@ -32,6 +29,12 @@ According to [Use Custom CSS Style in HackMD](https://hackmd.io/@hackmd/hackmd-n
 
 The name of published themes will follow the naming convention `theme-THEME_NAME` or `theme-THEME_NAME-STYLE`, the `THEME_NAME` and `STYLE` should be in lowercase.
 
+## Syncing
+
+The Syncing process of themes is handled by [HackMD API](https://hackmd.io/@hackmd-api/developer-portal/) and [GitHub Actions](https://github.com/features/actions). We can modify the `*.css` file inside `./styles` directory and then actions will automatically minimize the file and upload to HackMD.
+
+Check [`update-themes.yaml`](./.github/workflows/update-themes.yaml) for this workflow.
+
 ## Themes
 
 |    Name     |                         Preview                         | Demo                                                    | Style |
@@ -45,6 +48,11 @@ Themes are ported from [Typora Themes](https://theme.typora.io/) and credited to
 
 - **Notion Theme**: [adrian-fuertes](https://github.com/adrian-fuertes)
 - **OrangeHeart Themes**: [zhning12](https://github.com/zhning12), [evgo2017](https://github.com/evgo2017)
+
+## Other HackMD Themes
+
+- [Neko250/hmd-themes](https://github.com/Neko250/hmd-themes)
+- [Yukaii/hackmd-themes](https://github.com/Yukaii/hackmd-themes)
 
 ## License
 
