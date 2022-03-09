@@ -39,6 +39,7 @@ Check [`update-themes.yaml`](./.github/workflows/update-themes.yaml) for this wo
 
 |    Name     |                         Preview                         | Demo                                                    | Style |
 | :---------: | :-----------------------------------------------------: | :------------------------------------------------------ | :---: |
+|   Dracula   | <img src="https://i.imgur.com/67hTXQp.png" width="500"> | [DEMO](https://hackmd.io/@Hsins/theme-demo-dracula)     |       |
 |   Notion    | <img src="https://i.imgur.com/vVHOEwy.png" width="500"> | [DEMO](https://hackmd.io/@Hsins/theme-demo-notion)      |       |
 | OrangeHeart | <img src="https://i.imgur.com/G2dcJh9.png" width="500"> | [DEMO](https://hackmd.io/@Hsins/theme-demo-orangeheart) |       |
 
@@ -46,6 +47,7 @@ Check [`update-themes.yaml`](./.github/workflows/update-themes.yaml) for this wo
 
 Themes are ported from [Typora Themes](https://theme.typora.io/) and credited to following people:
 
+- **Dracula Theme**: [dracula](https://github.com/dracula), [Teyler7](https://github.com/Teyler7)
 - **Notion Theme**: [adrian-fuertes](https://github.com/adrian-fuertes)
 - **OrangeHeart Themes**: [zhning12](https://github.com/zhning12), [evgo2017](https://github.com/evgo2017)
 

@@ -9,6 +9,18 @@ export const themePath = './themes';
 // THEMES CONFIG
 export const themes = [
   {
+    slug: 'theme-dracula',
+    noteId: 'uQjC_6k6SMiVVfRmM8sT8Q',
+    styleFile: 'dracula.css',
+    themeFile: 'dracula.md',
+    metadata: {
+      name: 'HackMD Theme - Dracula',
+      description:
+        'Use `{%hackmd @Hsins/theme-dracula %}` syntax to include this theme.',
+      tags: ['HackMD-Theme'],
+    },
+  },
+  {
     slug: 'theme-notion',
     noteId: 'apDKTl3FRzG2MMi8U2L4Mw',
     styleFile: 'notion.css',
