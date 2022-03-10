@@ -16,27 +16,27 @@
 🎨 _Colorful and pretty themes for [HackMD](https://hackmd.io/). Most of thems are ported from [Typora Themes](https://theme.typora.io/) and [Obsidian Themes](https://github.com/kmaasrud/awesome-obsidian#themes)._
 
 <!-- Badges -->
-[![README in Traditional Chinese](https://img.shields.io/badge/README-繁體中文-8CA1AF.svg?logo=read-the-docs&style=flat-square)](./README_zh-TW.md)
+[![README in English](https://img.shields.io/badge/README-English-8CA1AF.svg?logo=read-the-docs&style=flat-square)](./README.md)
 
 </div>
 
-## Usage
+## 使用說明
 
-According to [Use Custom CSS Style in HackMD](https://hackmd.io/@hackmd/hackmd-new-blog#%E5%9C%A8-HackMD-%E8%87%AA%E8%A8%82%E7%AD%86%E8%A8%98%E6%A8%A3%E5%BC%8F%E8%A1%A8) and [Share CSS Style with Embedding Feature](https://hackmd.io/@hackmd/hackmd-new-blog#%E4%BD%BF%E7%94%A8%E5%85%A7%E5%B5%8C%E7%AD%86%E8%A8%98%E5%8A%9F%E8%83%BD%E5%85%B1%E7%94%A8%E7%AD%86%E8%A8%98%E6%A8%A3%E5%BC%8F%E8%A1%A8). I've published these themes for embedding use. Just use the syntax below to include the theme you need in your HackMD document.
+根據文件中的 [在 HackMD 自訂筆記樣式表](https://hackmd.io/@hackmd/hackmd-new-blog#%E5%9C%A8-HackMD-%E8%87%AA%E8%A8%82%E7%AD%86%E8%A8%98%E6%A8%A3%E5%BC%8F%E8%A1%A8) 和 [使用內嵌筆記功能共用筆記樣式表](https://hackmd.io/@hackmd/hackmd-new-blog#%E4%BD%BF%E7%94%A8%E5%85%A7%E5%B5%8C%E7%AD%86%E8%A8%98%E5%8A%9F%E8%83%BD%E5%85%B1%E7%94%A8%E7%AD%86%E8%A8%98%E6%A8%A3%E5%BC%8F%E8%A1%A8) 說明，本專案倉庫中的主題皆已透過發布功能可供嵌入使用。僅需要使用如下的語法在你的 HackMD 筆記中嵌入想要使用的主題：
 
 ```
 {%hackmd @Hsins/theme-notion %}
 ```
 
-The name of published themes will follow the naming convention `theme-THEME_NAME` or `theme-THEME_NAME-STYLE` (Note that `THEME_NAME` and `STYLE` should be in lowercase).
+其中發布的主題名稱，遵循如 `theme-THEME_NAME` 或 `theme-THEME_NAME-STYLE` 的命名方式（其中 `THEME_NAME` 與 `STYLE` 皆須以小寫表示）
 
-## Themes
+## 主題總覽
 
 <table>
 <tr>
-  <th> Name </th>
-  <th> Preview </th>
-  <th> Embed Snippet </th>
+  <th> 名稱 </th>
+  <th> 效果預覽 </th>
+  <th> 內嵌語法 </th>
 </tr>
 <tr>
 <td align="center">
@@ -98,30 +98,30 @@ OrangeHeart <br> <tt>[DEMO](https://hackmd.io/@Hsins/theme-demo-orangeheart)</tt
 </tr>
 </table>
 
-## Contribution
+## 貢獻須知
 
-The syncing process of themes is handled by [HackMD API](https://hackmd.io/@hackmd-api/developer-portal/) and [GitHub Actions](https://github.com/features/actions). We can modify the `*.css` file inside `./styles` directory and then actions will automatically minimize the file and upload to HackMD. Check [`update-themes.yaml`](./.github/workflows/update-themes.yaml) for this workflow.
+主題同步流程透過 [HackMD API](https://hackmd.io/@hackmd-api/developer-portal/) 和 [GitHub Actions](https://github.com/features/actions) 實作，開發人員只需要修改 `./styles` 目錄下的 `*.css` 文件，推送後會觸發 GitHub Actions 自動將檔案壓縮並上傳至 HackMD 中，工作流程的詳細設定可以參考 [`update-themes.yaml`](./.github/workflows/update-themes.yaml) 設定檔案。
 
-This project exists thanks to all the people who contribute:
+本專案感謝以下開發人員的貢獻：
 
 <a href="https://github.com/Hsins/hackmd-themes/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=Hsins/hackmd-themes" />
 </a>
 
-## Credits
+## 特別感謝
 
-Themes are ported from [Typora Themes](https://theme.typora.io/) and [Obsidian Themes](https://github.com/kmaasrud/awesome-obsidian#themes). Credited to following people:
+主題多數自 [Typora Themes](https://theme.typora.io/) 和 [Obsidian Themes](https://github.com/kmaasrud/awesome-obsidian#themes) 移植而來，感謝以下作者：
 
 - **Dracula Theme**: [dracula](https://github.com/dracula), [Teyler7](https://github.com/Teyler7)
 - **Notion Theme**: [adrian-fuertes](https://github.com/adrian-fuertes)
 - **OrangeHeart Theme**: [zhning12](https://github.com/zhning12), [evgo2017](https://github.com/evgo2017)
 
-## Other HackMD Themes
+## 其他主題
 
 - [Neko250/hmd-themes](https://github.com/Neko250/hmd-themes)
 - [Yukaii/hackmd-themes](https://github.com/Yukaii/hackmd-themes)
 
-## License
+## 授權條款
 
 Licensed under the Apache License, Version 2.0. Copyright © 2022-present [H.-H. Peng](https://github.com/Hsins).
 

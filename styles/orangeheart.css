@@ -183,3 +183,14 @@
   border-radius: 2px;
   border-radius: 4px;
 }
+
+/* Anchor for headings */
+.markdown-body .anchor {
+  margin-left: -40px;
+}
+
+.octicon-link {
+  color: white !important;
+  border-radius: 3px;
+  padding: 5px 10px !important;
+}
