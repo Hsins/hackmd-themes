@@ -25,10 +25,10 @@
 根據文件中的 [在 HackMD 自訂筆記樣式表](https://hackmd.io/@hackmd/hackmd-new-blog#%E5%9C%A8-HackMD-%E8%87%AA%E8%A8%82%E7%AD%86%E8%A8%98%E6%A8%A3%E5%BC%8F%E8%A1%A8) 和 [使用內嵌筆記功能共用筆記樣式表](https://hackmd.io/@hackmd/hackmd-new-blog#%E4%BD%BF%E7%94%A8%E5%85%A7%E5%B5%8C%E7%AD%86%E8%A8%98%E5%8A%9F%E8%83%BD%E5%85%B1%E7%94%A8%E7%AD%86%E8%A8%98%E6%A8%A3%E5%BC%8F%E8%A1%A8) 說明，本專案倉庫中的主題皆已透過發布功能可供嵌入使用。僅需要使用如下的語法在你的 HackMD 筆記中嵌入想要使用的主題：
 
 ```
-{%hackmd @Hsins/theme-notion %}
+{%hackmd @themes/notion %}
 ```
 
-其中發布的主題名稱，遵循如 `theme-THEME_NAME` 或 `theme-THEME_NAME-STYLE` 的命名方式（其中 `THEME_NAME` 與 `STYLE` 皆須以小寫表示）
+其中發布的主題名稱，遵循如 `THEME_NAME` 或 `THEME_NAME-STYLE` 的命名方式（其中 `THEME_NAME` 與 `STYLE` 皆須以小寫表示）
 
 ## 主題總覽
 
@@ -41,7 +41,7 @@
 <tr>
 <td align="center">
 
-Dracula <br> <tt>[DEMO](https://hackmd.io/@Hsins/theme-demo-dracula)</tt> 
+Dracula <br> <tt>[DEMO](https://hackmd.io/@themes/demo-dracula)</tt> 
   
 </td>
 <td align="center">
@@ -52,7 +52,7 @@ Dracula <br> <tt>[DEMO](https://hackmd.io/@Hsins/theme-demo-dracula)</tt>
 <td align="center">
 
 ```
-{%hackmd @Hsins/theme-dracula %}
+{%hackmd @themes/dracula %}
 ```
 
 </td>
@@ -60,7 +60,7 @@ Dracula <br> <tt>[DEMO](https://hackmd.io/@Hsins/theme-demo-dracula)</tt>
 <tr>
 <td align="center">
 
-Notion <br> <tt>[DEMO](https://hackmd.io/@Hsins/theme-demo-notion)</tt> 
+Notion <br> <tt>[DEMO](https://hackmd.io/@themes/demo-notion)</tt> 
   
 </td>
 <td align="center">
@@ -71,7 +71,7 @@ Notion <br> <tt>[DEMO](https://hackmd.io/@Hsins/theme-demo-notion)</tt>
 <td align="center">
 
 ```
-{%hackmd @Hsins/theme-notion %}
+{%hackmd @themes/notion %}
 ```
 
 </td>
@@ -80,7 +80,7 @@ Notion <br> <tt>[DEMO](https://hackmd.io/@Hsins/theme-demo-notion)</tt>
 <tr>
 <td align="center">
 
-OrangeHeart <br> <tt>[DEMO](https://hackmd.io/@Hsins/theme-demo-orangeheart)</tt> 
+OrangeHeart <br> <tt>[DEMO](https://hackmd.io/@themes/demo-orangeheart)</tt> 
   
 </td>
 <td align="center">
@@ -91,7 +91,7 @@ OrangeHeart <br> <tt>[DEMO](https://hackmd.io/@Hsins/theme-demo-orangeheart)</tt
 <td align="center">
 
 ```
-{%hackmd @Hsins/theme-orangeheart %}
+{%hackmd @themes/orangeheart %}
 ```
 
 </td>

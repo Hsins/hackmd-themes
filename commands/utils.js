@@ -1,7 +1,7 @@
 import log from 'log-beautify';
 import axios from 'axios';
 import { writeFile, readFileSync } from 'fs';
-import { stylePath, themePath, HACKMD_API_URL, HACKMD_API_TOKEN } from '../configs.js';
+import { stylePath, themePath, HACKMD_API_URL, HACKMD_API_TEAM, HACKMD_API_TOKEN } from '../configs.js';
 
 const getMetadata = (theme) => {
   return (
@@ -33,9 +33,9 @@ const updateTheme = (theme, content) => {
 const uploadTheme = (theme, content) => {
   const axiosConfig = {
     method: 'patch',
-    url: `${HACKMD_API_URL}/notes/${theme.noteId}`,
+    url: `${HACKMD_API_URL}/teams/${HACKMD_API_TEAM}/notes/${theme.noteId}`,
     headers: {
-      Authorization: HACKMD_API_TOKEN,
+      'Authorization': HACKMD_API_TOKEN,
       'Content-Type': 'application/json',
     },
     data: JSON.stringify({ content }),

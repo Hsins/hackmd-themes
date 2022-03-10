@@ -1,5 +1,6 @@
 // API CONFIG
 export const HACKMD_API_URL = 'https://api.hackmd.io/v1/';
+export const HACKMD_API_TEAM = 'themes';
 export const HACKMD_API_TOKEN = process.env.HACKMD_API_TOKEN;
 
 // PATH CONFIG
@@ -9,38 +10,38 @@ export const themePath = './themes';
 // THEMES CONFIG
 export const themes = [
   {
-    slug: 'theme-dracula',
-    noteId: 'uQjC_6k6SMiVVfRmM8sT8Q',
+    slug: 'dracula',
+    noteId: 'WDQfWEcMTZC_4bfjqr8Kdg',
     styleFile: 'dracula.css',
     themeFile: 'dracula.md',
     metadata: {
       name: 'HackMD Theme - Dracula',
       description:
-        'Use `{%hackmd @Hsins/theme-dracula %}` syntax to include this theme.',
+        'Use `{%hackmd @themes/dracula %}` syntax to include this theme.',
       tags: ['HackMD-Theme'],
     },
   },
   {
-    slug: 'theme-notion',
-    noteId: 'apDKTl3FRzG2MMi8U2L4Mw',
+    slug: 'notion',
+    noteId: 'miNJoYSqTJu0n41E-FjIRA',
     styleFile: 'notion.css',
     themeFile: 'notion.md',
     metadata: {
       name: 'HackMD Theme - Notion',
       description:
-        'Use `{%hackmd @Hsins/theme-notion %}` syntax to include this theme.',
+        'Use `{%hackmd @themes/notion %}` syntax to include this theme.',
       tags: ['HackMD-Theme'],
     },
   },
   {
     slug: 'theme-orangeheart',
-    noteId: 'ofm1jotJToqD6zfwrSeKdA',
+    noteId: 'H_sjdnx5RvG8B7qaoTRwww',
     styleFile: 'orangeheart.css',
     themeFile: 'orangeheart.md',
     metadata: {
       name: 'HackMD Theme - OrangeHeart',
       description:
-        'Use `{%hackmd @Hsins/theme-orangeheart %}` syntax to include this theme.',
+        'Use `{%hackmd @themes/orangeheart %}` syntax to include this theme.',
       tags: ['HackMD-Theme'],
     },
   },

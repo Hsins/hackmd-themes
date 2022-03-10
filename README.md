@@ -25,10 +25,10 @@
 According to [Use Custom CSS Style in HackMD](https://hackmd.io/@hackmd/hackmd-new-blog#%E5%9C%A8-HackMD-%E8%87%AA%E8%A8%82%E7%AD%86%E8%A8%98%E6%A8%A3%E5%BC%8F%E8%A1%A8) and [Share CSS Style with Embedding Feature](https://hackmd.io/@hackmd/hackmd-new-blog#%E4%BD%BF%E7%94%A8%E5%85%A7%E5%B5%8C%E7%AD%86%E8%A8%98%E5%8A%9F%E8%83%BD%E5%85%B1%E7%94%A8%E7%AD%86%E8%A8%98%E6%A8%A3%E5%BC%8F%E8%A1%A8). I've published these themes for embedding use. Just use the syntax below to include the theme you need in your HackMD document.
 
 ```
-{%hackmd @Hsins/theme-notion %}
+{%hackmd @themes/dracula %}
 ```
 
-The name of published themes will follow the naming convention `theme-THEME_NAME` or `theme-THEME_NAME-STYLE` (Note that `THEME_NAME` and `STYLE` should be in lowercase).
+The name of published themes will follow the naming convention `THEME_NAME` or `THEME_NAME-STYLE` (Note that `THEME_NAME` and `STYLE` should be in lowercase).
 
 ## Themes
 
@@ -41,7 +41,7 @@ The name of published themes will follow the naming convention `theme-THEME_NAME
 <tr>
 <td align="center">
 
-Dracula <br> <tt>[DEMO](https://hackmd.io/@Hsins/theme-demo-dracula)</tt> 
+Dracula <br> <tt>[DEMO](https://hackmd.io/@themes/demo-dracula)</tt> 
   
 </td>
 <td align="center">
@@ -60,7 +60,7 @@ Dracula <br> <tt>[DEMO](https://hackmd.io/@Hsins/theme-demo-dracula)</tt>
 <tr>
 <td align="center">
 
-Notion <br> <tt>[DEMO](https://hackmd.io/@Hsins/theme-demo-notion)</tt> 
+Notion <br> <tt>[DEMO](https://hackmd.io/@themes/demo-notion)</tt> 
   
 </td>
 <td align="center">
@@ -71,7 +71,7 @@ Notion <br> <tt>[DEMO](https://hackmd.io/@Hsins/theme-demo-notion)</tt>
 <td align="center">
 
 ```
-{%hackmd @Hsins/theme-notion %}
+{%hackmd @themes/notion %}
 ```
 
 </td>
@@ -80,7 +80,7 @@ Notion <br> <tt>[DEMO](https://hackmd.io/@Hsins/theme-demo-notion)</tt>
 <tr>
 <td align="center">
 
-OrangeHeart <br> <tt>[DEMO](https://hackmd.io/@Hsins/theme-demo-orangeheart)</tt> 
+OrangeHeart <br> <tt>[DEMO](https://hackmd.io/@themes/demo-orangeheart)</tt> 
   
 </td>
 <td align="center">
@@ -91,7 +91,7 @@ OrangeHeart <br> <tt>[DEMO](https://hackmd.io/@Hsins/theme-demo-orangeheart)</tt
 <td align="center">
 
 ```
-{%hackmd @Hsins/theme-orangeheart %}
+{%hackmd @themes/orangeheart %}
 ```
 
 </td>
