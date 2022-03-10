@@ -13,9 +13,10 @@
 
 # HackMD Themes
 
-🎨 _Colorful and pretty themes for [HackMD](https://hackmd.io/). Most of thems are ported from [Typora Themes](https://theme.typora.io/) and [Obsidian Themes](https://github.com/kmaasrud/awesome-obsidian#themes)._
+🎨 _Colorful and pretty themes for [HackMD](https://hackmd.io/). Most of them are ported from [Typora Themes](https://theme.typora.io/) and [Obsidian Themes](https://github.com/kmaasrud/awesome-obsidian#themes)._
 
 <!-- Badges -->
+[![](https://img.shields.io/badge/HackMD-@themes-E2EB86.svg?style=flat-square&labelColor=black&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAQAAAAAYLlVAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAHdElNRQfmAwoINxXXHd3sAAACTElEQVRo3u2Zz0sVURTHPzPvycyDFv4IyYTo2UYMaREILtpJf4G50UVCRNAutFwVGNTGZbQoArdChdAuEDeCm3CTi9q5lZI2D5/U810XL3HUuTPnztzrA53v8t7Lmc/9zj33HGagUKGLLi9uUNkLlQPAp5dAHGeHWjaQmNUK4BLPuEdFaIbHU5YAn2Z2LyIACjWt9pWJHigU6pZ6qDqU0Sv0NeMj2hkdNUAnr5mh3NpEPoCOTOY1qfCCWcpHTFkBsqpJwPNDhHYAeEB4iCDxwDZASxGENAg3ABGENB9cARxDaA+A8Cy4BBCdBXG65ECABf6djQNezIZCXjKnL2t2HfjFEuEpt32qXOenW4BWAfzBfc2s9hzaArgJpNw7irhCbQtgik2+8DdhxR57Lh24zBueUNf2IiXe8dYlAIQMJc73xw+7vYii0pwOEwe2+XzUeiaok3G6pEFNAFZ5LCrxAVXGpEFNXkFd2GU1ErMhhwNVBtlN7bkVXfS5AbjDir6oRBTQ6wagxFWD1UKdXRpacGCL94I0VHTziCsuANZ4JYw5KgcweQUN4bom+/KgJg4Mc5eaIA27ueEG4DbLor2VCd0AQMVotQOARusDRIpKlNwAfGdedAZ6mGfABcAGH0XrfCblACZpmPPTT34HRpgWpuGQKJ4xwCAfRB2BZ+KVWRYYhZap7dWwACgAdAAGjbVQmm5CB7Aubj9k2uVb/ITuHvjENSasld8ai3yNn0r6Y9JDkPHnycln1Pmje1jSTbhjaf//9dtuuEKFzo0OACDtphjvEWdcAAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDIyLTAzLTEwVDA4OjU1OjEwKzAwOjAwB+tWbQAAACV0RVh0ZGF0ZTptb2RpZnkAMjAyMi0wMy0xMFQwODo1NToxMCswMDowMHa27tEAAAAASUVORK5CYII=)](https://hackmd.io/@themes)
 [![README in English](https://img.shields.io/badge/README-English-8CA1AF.svg?logo=read-the-docs&style=flat-square)](./README.md)
 
 </div>
