@@ -1,6 +1,6 @@
 ---
 title: "HackMD Theme - Dracula"
-description: "Use `{%hackmd @Hsins/theme-dracula %}` syntax to include this theme."
+description: "Use `{%hackmd @themes/dracula %}` syntax to include this theme."
 tags: HackMD-Theme
 breaks: false
 ---

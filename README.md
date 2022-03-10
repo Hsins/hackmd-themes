@@ -52,7 +52,7 @@ Dracula <br> <tt>[DEMO](https://hackmd.io/@themes/demo-dracula)</tt>
 <td align="center">
 
 ```
-{%hackmd @Hsins/theme-dracula %}
+{%hackmd @themes/dracula %}
 ```
 
 </td>

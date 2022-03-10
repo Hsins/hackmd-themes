@@ -1,6 +1,6 @@
 ---
 title: "HackMD Theme - OrangeHeart"
-description: "Use `{%hackmd @Hsins/theme-orangeheart %}` syntax to include this theme."
+description: "Use `{%hackmd @themes/orangeheart %}` syntax to include this theme."
 tags: HackMD-Theme
 breaks: false
 ---

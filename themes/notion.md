@@ -1,6 +1,6 @@
 ---
 title: "HackMD Theme - Notion"
-description: "Use `{%hackmd @Hsins/theme-notion %}` syntax to include this theme."
+description: "Use `{%hackmd @themes/notion %}` syntax to include this theme."
 tags: HackMD-Theme
 breaks: false
 ---

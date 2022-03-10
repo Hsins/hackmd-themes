@@ -130,18 +130,6 @@
   word-break: break-all;
 }
 
-.markdown-body img {
-  display: block;
-  margin: 0 auto;
-  max-width: 100%;
-}
-
-.markdown-body span img {
-  display: inline-block;
-  border-right: 0px;
-  border-left: 0px;
-}
-
 .markdown-body table {
   display: table;
   text-align: left;
